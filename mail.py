@@ -21,3 +21,5 @@ mail = Mail(app)
 
 @app.route("/")
 def index():
+
+    msg = Message('Hey There', recipients=['collins.nyakoe@student.moringaschool.com'])
