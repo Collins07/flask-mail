@@ -15,3 +15,6 @@ app.config['MAIL_PASSWORD'] = None
 app.config['MAIL_DEFAULT_SENDER'] = 'collinsabaya07@gmail.com'
 #app.config['MAIL_MAX_EMAILS'] = None
 app.config['MAIL_SUPRESS_SENDER'] = False
+
+
+mail = Mail(app)
