@@ -18,3 +18,6 @@ app.config['MAIL_SUPRESS_SENDER'] = False
 
 
 mail = Mail(app)
+
+@app.route("/")
+def index():
