@@ -23,6 +23,9 @@ mail = Mail(app)
 def index():
 
     msg = Message('Hey There', recipients=['collins.nyakoe@student.moringaschool.com'])
+    msg.add_recipient('')
+    msg.html = '<b> Do not reply to this email </b>'
+
     mail.send(msg)
 
 
